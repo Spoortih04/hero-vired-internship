@@ -1,0 +1,112 @@
+SQL – Structured Query Language
+🔸 Definition:
+SQL is a standard programming language used for managing data stored in relational databases.
+It allows you to Create, Read, Update, and Delete data—commonly known as CRUD operations.
+
+🔹 Basic SQL Commands & Expanded Examples
+ 1. SELECT – Retrieve Data from a Table
+sql
+Copy
+Edit
+SELECT name, age FROM students WHERE age > 18;
+🔸 Explanation:
+
+SELECT: Fetches specific data from the database.
+
+name, age: Columns to display.
+
+FROM students: Target table.
+
+WHERE age > 18: Filters records (only students older than 18).
+
+👉 You can also use:
+
+sql
+Copy
+Edit
+SELECT * FROM students;
+Retrieves all columns from the "students" table.
+
+2. INSERT – Add New Data
+sql
+Copy
+Edit
+INSERT INTO students (name, age) VALUES ('John', 20);
+🔸 Explanation:
+
+Adds a new row to the table students.
+
+Specify column names and corresponding values.
+
+ Insert multiple rows:
+
+sql
+Copy
+Edit
+INSERT INTO students (name, age) VALUES 
+('Alice', 22), 
+('Bob', 19);
+
+ 3. UPDATE – Modify Existing Data
+sql
+Copy
+Edit
+UPDATE students SET age = 21 WHERE name = 'John';
+🔸 Explanation:
+
+Changes the age of a student named John.
+
+SET assigns a new value.
+
+WHERE ensures only the intended row is updated.
+
+ Without WHERE, all rows will be updated.
+
+ 4. DELETE – Remove Data
+sql
+Copy
+Edit
+DELETE FROM students WHERE name = 'John';
+🔸 Explanation:
+
+Deletes the record where the name is John.
+
+Without WHERE, all records will be deleted:
+
+sql
+Copy
+Edit
+DELETE FROM students;
+ 5. CREATE TABLE – Create a New Table
+sql
+Copy
+Edit
+CREATE TABLE students (
+  id INT PRIMARY KEY,
+  name VARCHAR(50),
+  age INT
+);
+🔸 Explanation:
+
+id INT: A unique number (integer).
+
+PRIMARY KEY: Ensures each ID is unique and not null.
+
+VARCHAR(50): A string column (up to 50 characters).
+
+INT: Numeric data type for age.
+
+ Additional Useful Commands
+ 6. ALTER TABLE – Change Table Structure
+sql
+Copy
+Edit
+ALTER TABLE students ADD gender VARCHAR(10);
+Adds a new column gender.
+
+ 7. DROP TABLE – Delete Entire Table
+sql
+Copy
+Edit
+DROP TABLE students;
+Deletes the table and all its data permanently.

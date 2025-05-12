@@ -1,0 +1,58 @@
+SQL JOINs – Combine Data from Multiple Tables
+Definition:
+A JOIN is used to combine rows from two or more tables based on a related column, typically a foreign key.
+
+ 1. INNER JOIN
+Returns only the matching rows from both tables.
+
+sql
+Copy
+Edit
+SELECT students.name, courses.course_name
+FROM students
+INNER JOIN courses ON students.course_id = courses.id;
+ Only students who are enrolled in a course will appear.
+
+ 2. LEFT JOIN (or LEFT OUTER JOIN)
+Returns all records from the left table, and the matching ones from the right.
+
+sql
+Copy
+Edit
+SELECT students.name, courses.course_name
+FROM students
+LEFT JOIN courses ON students.course_id = courses.id;
+ All students will appear—even if they’re not enrolled in any course (NULL for course_name).
+
+ 3. RIGHT JOIN (or RIGHT OUTER JOIN)
+Returns all records from the right table, and the matching ones from the left.
+
+sql
+Copy
+Edit
+SELECT students.name, courses.course_name
+FROM students
+RIGHT JOIN courses ON students.course_id = courses.id;
+ All courses will appear—even if no students are enrolled.
+
+ 4. FULL JOIN (or FULL OUTER JOIN)
+Returns all rows when there is a match in either left or right table.
+
+sql
+Copy
+Edit
+SELECT students.name, courses.course_name
+FROM students
+FULL OUTER JOIN courses ON students.course_id = courses.id;
+ Includes all students and all courses—even if there’s no match.
+
+ 5. CROSS JOIN
+Returns the Cartesian product – every row of the first table is joined with every row of the second.
+
+sql
+Copy
+Edit
+SELECT students.name, courses.course_name
+FROM students
+CROSS JOIN courses;
+If 5 students and 3 courses: 5 × 3 = 15 results.
