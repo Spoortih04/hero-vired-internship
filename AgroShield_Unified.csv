@@ -1,0 +1,31 @@
+FarmID,Region,CropType,SoilType,Date,Temperature,Humidity,Rainfall,DiseaseName,Severity,PesticideName,Effectiveness
+1,Ballari,Tomato,Red Soil,2025-04-01,32.5,70,12,Leaf Spot,High,X-Cure,80
+2,Gadag,Cotton,Black Soil,2025-04-01,34,65,5,Wilt,Medium,Fungikill,60
+3,Tumkur,Potato,Clay Soil,2025-04-01,30,80,10,Blight,Low,Pestguard,70
+4,Bagalkot,Wheat,Loamy Soil,2025-03-18,32,72,13,Rust,Medium,Rustx,75
+5,Mysuru,Rice,Clay Soil,2025-04-02,33,78,9,Blight,Low,Blightstop,85
+6,Chitradurga,Maize,Sandy Soil,2025-04-01,30.5,76,8,Leaf Curl,Medium,Leafguard,65
+7,Davangere,Groundnut,Black Soil,2025-03-29,34,69,14,Root Rot,High,Rootkill,90
+8,Hassan,Sugarcane,Alluvial Soil,2025-04-05,32.5,68,7,Mosaic Virus,Medium,Virusaway,60
+9,Bijapur,Barley,Loamy Soil,2025-04-03,31,75,10,Yellowing Leaves,Low,Leafguard,50
+10,Kolar,Cotton,Sandy Soil,2025-03-28,33.5,73,11,Wilt,High,Wiltend,80
+11,Ballari,Tomato,Red Soil,2025-04-03,33,75,15,Leaf Spot,High,X-Cure,85
+12,Gadag,Cotton,Black Soil,2025-04-05,35,66,6,Fusarium Wilt,Medium,Fungikill,55
+13,Tumkur,Potato,Clay Soil,2025-04-06,31,74,9,Blight,Low,Pestguard,75
+14,Bagalkot,Wheat,Loamy Soil,2025-04-07,33.5,70,10,Rust,High,Rustx,80
+15,Mysuru,Rice,Clay Soil,2025-04-08,32.5,72,12,Blight,Low,Blightstop,90
+16,Chitradurga,Maize,Sandy Soil,2025-04-10,30,77,8,Leaf Curl,Medium,Leafguard,70
+17,Davangere,Groundnut,Black Soil,2025-04-11,34,68,14,Root Rot,High,Rootkill,85
+18,Hassan,Sugarcane,Alluvial Soil,2025-04-12,32,73,9,Mosaic Virus,Medium,Virusaway,65
+19,Bijapur,Barley,Loamy Soil,2025-04-14,30.5,79,10,Yellowing Leaves,Low,Leafguard,50
+20,Kolar,Cotton,Sandy Soil,2025-04-15,33,75,12,Wilt,High,Wiltend,90
+21,Ballari,Tomato,Red Soil,2025-04-18,32.5,70,13,Leaf Spot,High,X-Cure,80
+22,Gadag,Cotton,Black Soil,2025-04-20,34.5,67,5,Wilt,Medium,Fungikill,60
+23,Tumkur,Potato,Clay Soil,2025-04-21,30,80,8,Blight,Low,Pestguard,70
+24,Bagalkot,Wheat,Loamy Soil,2025-04-22,33,72,10,Rust,Medium,Rustx,75
+25,Mysuru,Rice,Clay Soil,2025-04-24,33.5,71,11,Blight,Low,Blightstop,85
+26,Chitradurga,Maize,Sandy Soil,2025-04-25,31.5,75,9,Leaf Curl,Medium,Leafguard,65
+27,Davangere,Groundnut,Black Soil,2025-04-26,34,69,13,Root Rot,High,Rootkill,90
+28,Hassan,Sugarcane,Alluvial Soil,2025-04-28,32.5,70,8,Mosaic Virus,Medium,Virusaway,60
+29,Bijapur,Barley,Loamy Soil,2025-04-30,30.5,78,9,Yellowing Leaves,Low,Leafguard,50
+30,Kolar,Cotton,Sandy Soil,2025-05-01,33,72,11,Wilt,High,Wiltend,80
